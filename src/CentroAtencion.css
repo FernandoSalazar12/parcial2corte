@@ -1,0 +1,77 @@
+.centro-atencion {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .titulo-centro {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+  }
+  
+  .seccion-items {
+    margin-bottom: 40px;
+  }
+  
+  .subtitulo {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-left: 5px solid #333;
+  }
+  
+  .mensaje-vacio {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    color: #666;
+  }
+  
+  .lista-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .tarjeta-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tarjeta-item.reclamo {
+    background-color: #fff0f0;
+  }
+  
+  .cabecera-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .tipo-item {
+    font-weight: bold;
+  }
+  
+  .fecha-item {
+    font-size: 0.8em;
+    color: #666;
+  }
+  
+  .nombre-item {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .texto-item {
+    line-height: 1.4;
+  }
+  
